@@ -13,6 +13,7 @@ input, textarea, select {
 label{
   font: var(--text-sm);
   color: var(--text-secondary);
+  
   display: block;
   margin-block: .25rem;
 }

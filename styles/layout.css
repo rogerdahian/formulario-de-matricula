@@ -3,11 +3,11 @@
   grid-template-columns: 51.25% 48.75%;
 
   height: 100vh;
-  overflow: hidden;
+  
 }
 
 main{
-  overflow: auto;
+  overflow:auto;
   padding: 4rem;
 
   & .main-container{
@@ -27,10 +27,14 @@ main{
     margin-bottom: .5rem;
   }
 }
+ 
+
 
 aside{
   background-color: var(--surface-secondary);
   padding: 4rem;
+
+  overflow: hidden;
 
   & .aside-container{
     max-width: 31rem;
