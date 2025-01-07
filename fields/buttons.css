@@ -6,6 +6,7 @@ button{
   border-radius: .5rem;
   cursor: pointer;
 
+  
 &.btn-primary{
   color: white;
   background-color: #E43A12;
@@ -17,9 +18,9 @@ button{
 }
 
 &.btn-secondary{
-  margin-left: auto;
-  border: 1px solid var(--text-highlight);
   
+  border: 1px solid var(--text-highlight);
+
   &:hover,
   &:focus{
   color: #E43A12;
